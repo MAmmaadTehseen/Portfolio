@@ -28,7 +28,7 @@
           <!-- Add the links for Skills, Projects and Recommendation here -->
           <a class="topmenu" href="#skills">skill</a>
           <a class="topmenu" href="#projects">Projects</a>
-          <a class="topmenu" href="#recommendations">recommendations</a>      
+          <a class="topmenu" href="#certificates">Certificates</a>      
         </div>
         
       </div>    
@@ -37,15 +37,15 @@
     <!-- About Me -->
     <section id="about-me" class="container">
       <div>
-        <img src="html_finalprojimages\ammad.png" class="profile_image"/>
+        <img src="html_finalprojimages\ammad.jpeg" class="profile_image"/>
       </div>
 
       <div>
           <h1>
-            Hi, I'm M Ammaad Tehseen ! <img src="html_finalprojimages/flash.png" width="60px"/>
+            Hi, I'm M Ammaad Tehseen ! 
           </h1>
           <p>
-            I am a full stack developer.As a software developer, 
+            I am a full stack developer.As a developer, 
             <ul>
                 <li>I am passionate about creating efficient and user-friendly software applications that meet the needs of my clients and end-users.</li>
                 <li>I enjoy using my problem-solving skills to tackle complex technical challenges and find innovative solutions as a software developer.</li>
@@ -155,7 +155,7 @@
         Certificates
       </h2>      
       <div style="clear:both;"></div>
-      <div class="all_certificates">
+      <div id="certificates"class="all_certificates">
  <div class="certificates">
           <a href="https://www.coursera.org/account/accomplishments/certificate/QWEMA8DX8RQG" target="_blank"><img src="html_finalprojimages/htmlcssjs.png" height="200px"></a>
           <h6>Html,CSS,JavaScript Certificate</h6>
@@ -175,47 +175,7 @@
 
 
     
-    <!-- Recommendations -->
-    <section id="recommendations">
-      <h2>Recommendations</h2>
-      <div style="clear:both;"></div>
-      <div class="all_recommendations" id="all_recommendations">
-        <div class="recommendation">
-          <span>&#8220;</span>
-         Cultivate openness: Practice being open-minded and receptive to new ideas and experiences. This can broaden your horizons and help you learn and grow as a person.
-
-
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-         Establish goals: Set achievable goals that align with your values and aspirations. This can give you a sense of direction and motivation to strive towards what you want to achieve.
-
-
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-         Prioritize self-care: Make time to take care of your physical, mental, and emotional well-being. This can help you manage stress and improve your overall quality of life. 
-          <span>&#8221;</span>
-        </div>
-      </div>
-    </section>
     
-    <!-- Recommendation Form -->
-    <section id="contact">
-      <div class="flex_center">
-        <fieldset>
-          <legend class="introduction">Leave a Recommendation</legend>          
-          <input type="text" placeholder="Name (Optional)"> <br/>
-          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
-          <div class="flex_center">
-            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
-          </div>
-        </fieldset>
-      </div>
-    </section>
-
     <div class="iconbutton">
       <a href="#home">
         <!--Add the code here for the logo to appear and the icon to be actionable-->
@@ -223,13 +183,7 @@
   <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
 </svg>
       </a>
-    </div>
-
-    <div class="popup" id="popup" class="flex_center">
-      <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3>Thanks for leaving a recommendation</h3>
-      <button onclick="showPopup(false)">Ok</button>
-    </div>
+    
     
   </body>
 </html>
