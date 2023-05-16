@@ -132,7 +132,33 @@ h2 {
   font-size: 20px;
   box-shadow: 0 3px 10px gray;
 }
-
+.all_certificates {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+.certificates {
+  border: 2px solid gray;
+  width: 3in;
+  display: block;
+  border-radius: 6px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+  box-shadow: 0 5px 10px rgb(97, 95, 98);
+}
+.project_img {
+  border: 2px solid gray;
+  width: 5.8in;
+  display: block;
+  border-radius: 6px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+  box-shadow: 0 5px 10px rgb(97, 95, 98);
+}
 .skill img {
   height: 35px;
   align-items: center;
