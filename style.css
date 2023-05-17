@@ -94,7 +94,7 @@ h2 {
   align-items: center;
 }
 
-#about-me h2 {
+#about-me h1 {
   font-size: 50px;
   margin-top: 90px;
   color: #7600bc;
@@ -103,13 +103,13 @@ h2 {
 #about-me p {
   font-size: 25px;
   color: rgb(128, 128, 128);
-  /* margin-top: -1cm; */
+  margin-top: -1cm;
 }
 
 .profile_image {
   width: 450px;
   height: 550px;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   margin: 5px;
 }
 
@@ -139,7 +139,7 @@ h2 {
 }
 .certificates {
   border: 2px solid gray;
-  width: 3in;
+  width: 4in;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -147,6 +147,10 @@ h2 {
   padding: 10px;
   font-size: 30px;
   box-shadow: 0 5px 10px rgb(97, 95, 98);
+}
+.certificates img {
+  height: 3in;
+  align-items: center;
 }
 .project_img {
   border: 2px solid gray;
@@ -214,38 +218,6 @@ h2 {
   margin-left: 30px;
 }
 
-/* Recommendations */
-
-.all_recommendations {
-  display: flex;
-  align-items: center;
-  margin-left: 1in;
-  flex-direction: row;
-  flex-flow: wrap;
-  padding: 20px;
-}
-
-.recommendation {
-  font-style: italic;
-  text-align: left;
-  width: 21.875rem;
-  padding: 1rem;
-  background-color: #fff;
-  border-radius: 11px;
-  box-shadow: 0 3px 10px var(--primary-shadow);
-  padding: 20px;
-  margin: 10px;
-  border: 1px solid gray;
-  font-size: 18px;
-  height: 150px;
-}
-
-.recommendation span {
-  color: #7600bc;
-  font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
-}
-
 /* Scroll to Top Button */
 
 .iconbutton {
@@ -274,71 +246,6 @@ h2 {
   right: 3%;
   bottom: 3%;
   cursor: pointer;
-}
-
-/* Form Pop-up */
-
-.popup {
-  width: 400px;
-  background-color: #e8bcf0;
-  border-radius: 3mm;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  position: fixed;
-  /* padding: 30px; */
-  visibility: hidden;
-}
-
-.popup img {
-  padding-top: 20px;
-}
-
-.popup button {
-  background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
-  display: block;
-  border-radius: 6px;
-  text-align: center;
-  margin: 50px;
-  padding: 10px;
-  width: 2in;
-  font-size: 20px;
-  margin-left: 25%;
-}
-
-.popup button:hover {
-  background-color: #fff;
-  border: 2px solid #7600bc;
-  color: #7600bc;
-  display: block;
-  font-weight: bolder;
-  text-align: center;
-  cursor: pointer;
-  margin-left: 25%;
-}
-
-/* Recommendation Form */
-
-input,
-textarea {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  margin: 10px;
-  width: 100%;
-}
-
-fieldset {
-  display: flexbox;
-  align-content: center;
-  justify-content: center;
-  padding: 25px;
-  margin-left: 50px;
-  margin-right: 50px;
-  border: thin solid white;
-  width: 50%;
 }
 
 /* Buttons */
