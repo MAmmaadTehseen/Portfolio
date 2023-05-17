@@ -94,8 +94,8 @@ h2 {
   align-items: center;
 }
 
-#about-me h1 {
-  font-size: 65px;
+#about-me h2 {
+  font-size: 50px;
   margin-top: 90px;
   color: #7600bc;
 }
@@ -103,7 +103,7 @@ h2 {
 #about-me p {
   font-size: 25px;
   color: rgb(128, 128, 128);
-  margin-top: -1cm;
+  /* margin-top: -1cm; */
 }
 
 .profile_image {
@@ -160,7 +160,7 @@ h2 {
   box-shadow: 0 5px 10px rgb(97, 95, 98);
 }
 .skill img {
-  height: 35px;
+  height: 70px;
   align-items: center;
 }
 
